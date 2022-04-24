@@ -9,9 +9,9 @@ import UIKit
 
 class GroupTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var titleView: UILabel!
-//    @IBOutlet weak var titleView: UIImageView!
-    @IBOutlet weak var allDone: UILabel!
+    @IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subtitleLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
